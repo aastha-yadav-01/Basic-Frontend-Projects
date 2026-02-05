@@ -5,12 +5,8 @@
 }
 
 body{
-    background-color: purple;
+    background-color: rgb(0, 92, 128);
 }
-
-
-
-
 
 .container{
     height: 100vh;
@@ -18,8 +14,6 @@ body{
     display: grid;
     place-items: center;
 }
-
-
 
 .calculator{
     height: auto;
@@ -29,7 +23,6 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 30px black;
 }
-
 
 #display{
     height: 150px;
@@ -52,20 +45,16 @@ button {
     cursor: pointer;
 }
 
-
 button#equal{
     height: 130px;
     background-color: darkgray;
     color :black
 }
 
-
-
 .calculator button#clear{
     background-color: crimson;
     color : white
 }
-
 
 .calculator button.btn-operator{
        background-color:black;
